@@ -82,14 +82,15 @@ namespace MethodExample
             Player person = new Player(newname, userid);
 
             // Вызов метода SayHello
-
-            string a = Console.ReadLine();
-            if (a == "/display")
+            for(int i = 0; i<10;i++){
+                string a = Console.ReadLine();
+                if (a == "/display")
             {
                 person.DisplayInfo();
             }
             if (a == "/create")
             {
+            }
             }
         }
     }
